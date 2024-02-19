@@ -1,0 +1,47 @@
+<!-- Store this code in 'login.html' file inside the 'templates' folder -->
+{%include 'top.html'%}
+ <!DOCTYPE>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title> Register </title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">           <meta charset="UTF-8">
+            <meta name="google-site-verification" content="Co5ss0eMqJIVZAtVV6WCvsO6s9PBwJC0I5ZafJvM1Xo" />
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <link href="css/style.css" rel="stylesheet">
+                    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+             <link rel="stylesheet" type="" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+           <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+            
+    </head>
+    <body>
+      <div class="header1">
+        <h1 class="text-center mt-5 mb-2">Register your account with us</h1>
+     </div>
+    </br></br></br></br></br>
+    <form class='center'>
+      <div class="form-group">
+        <label for="exampleInputPassword1">FullName</label>
+        <input type="name" class="form-control" id="exampleName" placeholder="Name">
+      </div>
+      <div class="form-group">
+        <label for="exampleInputEmail1">Email address</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+      </div>
+      <div class="form-group">
+        <label for="exampleInputPassword1">Password</label>
+        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+      </div>
+      <div class="form-group">
+        <label for="exampleInputPassword1">ConfirmPassword</label>
+        <input type="password" class="form-control" id="exampleInputPassword2" placeholder="Password">
+      </div>
+      
+      <a type="submit" class=" btn btn-primary mt-5 mb-5" href='/login'>Submit</a>
+    </form>
+        <div>{%extends 'bottom.html'%}</div>
+    </body>
+</html>
