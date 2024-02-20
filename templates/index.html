@@ -1,6 +1,6 @@
 
 
-{%include 'top.html'%}
+
 <!doctype html>
 <html>
   <title>job application website </title>
@@ -26,82 +26,9 @@
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap"
     />
-    <!-- MDB -->
-    <link rel="stylesheet" href="css/mdb.min.css" />
+    
      <style>
-      :root{
-
-        --grey: #172339;
-        --cream-white: #FAF8F6;
-        --cream: #F3EDE7;
-        --dark-grey:#49566D;
-
-        --cream-light:#FFFFFF;
-        --dark-blue: #172339;
-}
-*{
-box-sizing: border-box;
-margin: 0;
-padding: 0;
-
-}
-*ul{
-list-style-type: none;
-}
-*a{
-text-decoration:none;
-}
-body{
-font-family: 'epilogue',sans-serif;
-
-background-color:#FAF8F6;
-display: grid;
-
-
-}
-.container{
-width: 100vh;
-height: 100vh; 
-align-items:center;
-align-content:center;
-}
-
-#le{
-width:100%;
-list-style-type: none;
-margin: 10px auto;
-padding: 10px;
-overflow: hidden;
-background-color: blue;
-left:10px;
-}
-ul{
-list-style-type: none;
-margin: 0;
-padding: 0;
-overflow: hidden;  
-}
-
-li {
-float: left;
-}
-
-li a {
-display: block;
-color: white;
-text-align: center;
-padding: 14px 16px;
-text-decoration: none;
-}
-
-li a:hover {
-background-color: #111;
-}
-ul li a i{
-margin-right:5px;
-}
-
-
+     
 
 
     
@@ -110,13 +37,14 @@ margin-right:5px;
     </style>
   </header>
     <body>
-      
+      <!--header with icons-->
       <div class="container">
         <div class='row' id='le'>
           <ul >
+            <!--home-->
       <li><a class="fa fa-home" aria-hidden="true" href="{{url_for('home')}}">Home</a></li>
 
-      <li><a href="#contact"class="fa fa-envelope" aria-hidden="true">Contact</a></li>
+      <li><a href="{{url_for('blog')}}"class="fa fa-envelope" aria-hidden="true">blog</a></li>
       <li><a href="{{url_for('about')}}">About</a></li>
 
       <li><a href="{{url_for('register')}}"><i class="fa fa-person">register</i></a></li>
