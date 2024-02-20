@@ -35,6 +35,10 @@ def home():
 def about():
     return render_template('about.html')
 
+@app.route("/blog")
+def blog():
+    return render_template('blog.html')
+
 @app.route("/register", methods=['GET','POST'])
 def register():
     msg = ''
