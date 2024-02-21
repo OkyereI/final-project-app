@@ -1,7 +1,7 @@
 
 
-{%include 'top.html'%}
-<!doctype html>
+
+<!DOCTYPE html>
 <html>
   <title>job application website </title>
   <header>
@@ -109,14 +109,15 @@ margin-right:5px;
 
     </style>
   </header>
+  <!--body of the webpage-->
     <body>
-      
+      <!--header of the webpage-->
       <div class="container">
         <div class='row' id='le'>
           <ul >
       <li><a class="fa fa-home" aria-hidden="true" href="{{url_for('home')}}">Home</a></li>
 
-      <li><a href="#contact"class="fa fa-envelope" aria-hidden="true">Contact</a></li>
+      <li><a href="#{{url_for('blog')}}"class="fa fa-envelope" aria-hidden="true">blog</a></li>
       <li><a href="{{url_for('about')}}">About</a></li>
 
       <li><a href="{{url_for('register')}}"><i class="fa fa-person">register</i></a></li>
@@ -124,8 +125,10 @@ margin-right:5px;
       </ul>  
 
         </div>
+        <!--logo-->
         <div class='center'><img src="static/logo.png" class="rounded mx-auto d-block" alt="..." style='width:20%'></div>
   <hr>
+  <!--text -->
        <div class='col '>
 
         <h1 class='text-center'style='margin-top:20px;margin-left:20px; font-family:Epilogue; color:#000065 ';font-size='30px'>WEB  DEVELOPMENT CENTER </h1>
@@ -141,7 +144,7 @@ margin-right:5px;
         <hr>
 
         <div style='width:100%; margin-top:20px'>
-
+          <!--description of the page-->
       <h1 class='text-center mt-50 py-5' style='margin-top:50px; color:blue'>What we can offer you</h1>
        <div class='row'>
 

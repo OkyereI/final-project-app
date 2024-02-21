@@ -4,7 +4,7 @@
 this project is intended to:
 
 * build a web application for business
-*
+* Solution for tech development and applications
 ---
 
 ### [ installation]
