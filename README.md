@@ -1,13 +1,22 @@
-<<<<<<< HEAD
-<h1>portfolio final-project-app</h1>
-<hr>
-<h3>bisness tech solution center for transformational development.This project is ment for</h3>
-<a>web development business site project management </a>
-<a> href='url link:https://final-project-app-jzuh.onrender.com/'</a>
-<p>autor:Isaac Okyere</p>
-=======
-potfolio final-project-app
-<hr>
-<h5>This project is a business web appliction website for business development</h5>
-<h3><a href='https://final-project-app-jzuh.onrender.com/>project deployed page</a></h3>
->>>>>>> 07e2316 (readme update)
+# portfolio fianl project
+
+## Description
+this project is intended to:
+
+* build a web application for business
+*
+---
+
+### [ installation]
+*1. python 3.8
+*2. mysql database
+*3.flask
+
+## [ Licencing:]
+* 
+
+
+---
+
+## Author
+* **Isaac okyere* - [OKyereI](https://github.com/OkyereI)
