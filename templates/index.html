@@ -27,7 +27,6 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap"
     />
     <!-- MDB -->
-    <link rel="stylesheet" href="css/mdb.min.css" />
      <style>
       :root{
 
@@ -148,14 +147,14 @@ margin-right:5px;
       <h1 class='text-center mt-50 py-5' style='margin-top:50px; color:blue'>What we can offer you</h1>
        <div class='row'>
 
-         {% for company in company %}
+         {% for companys in companys %}
        <div class='col sm-12 mb-4 mt-24'>
-        <h4>{{company['project']}}</h4> 
-         <p>{{company['status']}}</p>
-         <h6>location:</h6><p>{{company['location']}}</p>
+        <h4>{{companys['project']}}</h4> 
+         <p>{{companys['status']}}</p>
+         <h6>location:</h6><p>{{companys['location']}}</p>
 
          <div class='col sm-5 mb-20' style='margin-top:-20px; margin-bottom:20px; margin-top:-50px'>
-            <a href="mailto:isaacookyere4@gmail.com?subject=Application%20for%20{{company['project']}}&body=My%20name%3A%20%3Cyour%20name%20here%3E%0D%0A%0D%0AMy%20Resume%20link%3A%20%3Cresume%20link%3E%0D%0A%0D%0AMy%20LinkedIn%20link%3A%20%3Clinkedin%20in%3E%0D%0A%0D%0A" class='btn btn-primary' type="text" style='margin-left:85%; width:80px; margin-top:5px; '>apply<a> 
+            <a href="mailto:isaacookyere4@gmail.com?subject=Application%20for%20{{companys['project']}}&body=My%20name%3A%20%3Cyour%20name%20here%3E%0D%0A%0D%0AMy%20Resume%20link%3A%20%3Cresume%20link%3E%0D%0A%0D%0AMy%20LinkedIn%20link%3A%20%3Clinkedin%20in%3E%0D%0A%0D%0A" class='btn btn-primary' type="text" style='margin-left:85%; width:80px; margin-top:5px; '>apply<a> 
 
         </div>
         <hr>
