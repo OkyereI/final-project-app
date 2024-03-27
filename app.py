@@ -3,7 +3,7 @@ import csv
 
 app = Flask(__name__)
 
-
+# items to display as company projects
 companys=[
     {
         'id':1,'project':'web development','status':'available', "location":'Ghana'
@@ -69,7 +69,7 @@ def blog():
 def add_record():
     return render_template('add.html')
 
-# Sample data for demonstration
+# Sample data for users to store in csv file
 users = []
 
 @app.route("/registers", methods=["GET", "POST"])
